@@ -1,26 +1,28 @@
 {
-  "name": "hacker-news-clone",
+  "name": "techblog",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
     "test": "jest",
+    "start": "node server.js",
     "seeds": "node seeds/index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bcrypt": "^4.0.1",
-    "connect-session-sequelize": "^6.1.1",
-    "dotenv": "^8.6.0",
-    "express": "^4.17.1",
-    "express-handlebars": "^3.1.0",
-    "express-session": "^1.17.3",
-    "handlebars": "^4.7.3",
+    "bcrypt": "^5.0.1",
+    "connect-session-sequelize": "^7.1.2",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-handlebars": "^6.0.3",
+    "express-session": "^1.17.2",
+    "handlebars": "^4.7.7",
     "mysql2": "^2.3.3",
-    "sequelize": "^5.21.5"
+    "sequelize": "^6.17.0"
   },
   "devDependencies": {
+    "gh-pages": "^3.2.3",
     "jest": "^25.1.0"
   }
 }
